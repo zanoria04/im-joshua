@@ -1,4 +1,159 @@
+
+
+
+/* FOR A RESPONSIVE WEB DESIGN*/
+
 * {
-    background-color: green;
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/*-------------------------- */
+
+/* HEADER SECTION*/
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}  
+
+.img-circle {
+    border-radius: 50%;
+
+}
+
+#header img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+}
+#header h2 {
+    /*color: aqua;*/
+    color: white;
+    padding-top: 30px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+}
+
+#header h6 {
+    color: #0202036c;
+    padding-top: 10px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: aqua;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+}
+
+/*-------------------------- */
+
+
+.contact {
+	color: #eaf1f5;
+	padding-top: 5px;
+	margin-top: 150px;
+	font-weight: bold;
+    text-align: center;
+}
+
+.contact p {
+    color: aqua;
+}
+
+.navigation {
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    background-color: bisque
+}
+
+
+
+.navigation a {
+    color: rgba(0, 0, 0, 0.39);
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+.navigation a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.fa {
+    width: 20px;
+    padding: 5px;
+
 }
 
