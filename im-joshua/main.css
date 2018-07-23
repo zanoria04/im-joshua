@@ -140,9 +140,36 @@ h4 {
     color: #fff !important;
 }
 
+/* SKILL section */
+
+.slideanim {visibility:hidden;}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+
+
+
+
+
+
+
 /*-------------------------- */
-
-
 .contact {
 	color: #eaf1f5;
 	padding-top: 5px;
