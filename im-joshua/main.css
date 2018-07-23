@@ -54,7 +54,7 @@
 /*-------------------- HEADER Section -------------------- */
 
 body {
-    font-family: : 400 15px Lato, sans-serif;
+    font-family: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
 }
@@ -150,14 +150,15 @@ h4 {
 }
 .carousel-indicators li.active {
     background-color: #1B6C7C;
-
 }
+
 .item h4 {
     font-size: 19px;
     line-height: 1.375em;
     font-weight: 400;
     font-style: italic;
     margin: 70px 0;
+    color: #1B6C7C;
 }
 .item span {
     font-style: normal;
@@ -226,6 +227,17 @@ h4 {
   .logo {
       font-size: 150px;
   }
+}
+
+
+/*-------------------- CERTIFICATE Section -------------------- */
+
+.row .col-sm-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
