@@ -170,12 +170,14 @@ h4 {
 }
 .logo {
     color: aqua;
-    font-size: 250px;
+    font-size: 300px;
 }
 
 .container-fluid {
     padding: 60px 50px;
 }
+
+
 
 /*-------------------- SKILLS Section -------------------- */
 
@@ -188,10 +190,6 @@ h4 {
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     visibility: visible;
-}
-
-.container-fluid {
-    padding: 60px 50px;
 }
 
 @keyframes slide {
@@ -217,7 +215,7 @@ h4 {
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
-    margin: 25px 0;
+    margin: 20px 0;
   }
   .btn-lg {
       width: 100%;
