@@ -18,7 +18,7 @@
 /* For mobile phones: 
 [class*="col-"] {
     width: 100%;
-}*/
+}
 
 @media only screen and (min-width: 600px) {
     /* For tablets: */
@@ -138,6 +138,31 @@ h4 {
     color: #fff !important;
 }
 
+/*-------------------- QUOTES Section -------------------- */
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+.carousel-indicators li {
+    border-color: #f4511e;
+
+}
+.carousel-indicators li.active {
+    background-color: #f4511e;
+
+}
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.item span {
+    font-style: normal;
+}
+
 
 /*-------------------- SKILLS Section -------------------- */
 
@@ -196,35 +221,22 @@ h4 {
 }
 
 
+/*-------------------- TOOLS Section -------------------- */
 
-/*-------------------- QUOTES Section -------------------- */
-
-.carousel-control.right, .carousel-control.left {
-    background-image: none;
-    color: #f4511e;
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
 }
-.carousel-indicators li {
-    border-color: #f4511e;
-
-}
-.carousel-indicators li.active {
-    background-color: #f4511e;
-
-}
-.item h4 {
-    font-size: 19px;
-    line-height: 1.375em;
-    font-weight: 400;
-    font-style: italic;
-    margin: 70px 0;
-}
-.item span {
-    font-style: normal;
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
 }
 
 
 
-/*--------------------  Section -------------------- */
+
 
 /*--------------------  Section -------------------- */
 
