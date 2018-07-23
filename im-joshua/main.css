@@ -16,10 +16,11 @@
     padding: 15px;
 }
 
-/* For mobile phones: */
+/* For mobile phones: 
 [class*="col-"] {
     width: 100%;
-}
+}*/
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -140,7 +141,13 @@ h4 {
     color: #fff !important;
 }
 
+
+
 /* SKILL section */
+
+.container-fluid {
+    padding: 60px 50px;
+}
 
 .slideanim {visibility:hidden;}
 
@@ -156,15 +163,44 @@ h4 {
     padding: 60px 50px;
 }
 
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
   }
+  .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+      font-size: 150px;
+  }
+}
 
 
-
-
+/*-------------------------- */
 
 
 
