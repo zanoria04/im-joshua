@@ -15,10 +15,10 @@
     padding: 15px;
 }
 
-/* For mobile phones: 
+For mobile phones: 
 [class*="col-"] {
     width: 100%;
-}
+} 
 
 @media only screen and (min-width: 600px) {
     /* For tablets: */
@@ -35,6 +35,7 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 }
+
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -126,7 +127,7 @@ h4 {
 .navbar li a, .navbar .navbar-brand {
     /*color: #fff !important;*/
     color: black;
-    font-size: 15px;
+    font-size: 13px;
 
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -141,20 +142,23 @@ h4 {
 /*-------------------- QUOTES Section -------------------- */
 
 .carousel-control.right, .carousel-control.left {
-    background-image: none;
     color: #1B6C7C;
+    /*background-image: none;*/
 }
+
 .carousel-indicators li {
     border-color: #1B6C7C;
 
 }
+
 .carousel-indicators li.active {
     background-color: #1B6C7C;
 }
 
 .item h4 {
     font-size: 19px;
-    line-height: 1.375em;
+    /*line-height: 1.375em;*/
+    height: 100px;
     font-weight: 400;
     font-style: italic;
     margin: 70px 0;
@@ -178,7 +182,10 @@ h4 {
     padding: 60px 50px;
 }
 
-
+.bg-grey {
+    /*background-color: #f6f6f6;*/
+    background-color:#E2E8EF;
+}
 
 /*-------------------- SKILLS Section -------------------- */
 
@@ -203,6 +210,7 @@ h4 {
     transform: translateY(0%);
   }
 }
+
 @-webkit-keyframes slide {
   0% {
     opacity: 0;
@@ -213,16 +221,19 @@ h4 {
     -webkit-transform: translateY(0%);
   }
 }
+
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
   }
+
   .btn-lg {
       width: 100%;
       margin-bottom: 35px;
   }
 }
+
 @media screen and (max-width: 480px) {
   .logo {
       font-size: 150px;
@@ -230,7 +241,60 @@ h4 {
 }
 
 
+
 /*-------------------- CERTIFICATE Section -------------------- */
+
+.panel {
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+    border: 1px solid aqua;
+    background-color: #fff !important;
+    color: grey;
+}
+.panel-heading {
+    color: #fff !important;
+    background-color: aqua !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer {
+    background-color: white !important;
+}
+.panel-footer h3 {
+    font-size: 32px;
+}
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: aqua;
+    color: black;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:aqua;
+}
+
+
+
+
+
+
+
+
 
 .row .col-sm-3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
