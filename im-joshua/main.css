@@ -176,7 +176,7 @@ h4 {
     height: 80px;
     font-weight: 400;
     font-style: italic;
-    margin: 70px 0;
+    margin: 30px 0;
     color: #3CB371;
 }
 .item span {
@@ -369,12 +369,25 @@ footer .glyphicon {
 
 
 
+/*-------------------- CONTACT Section -------------------- */
 
 
+.fa {
+    text-align: center;
+    padding: 15px;
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 20%;
+    font-size: 22px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      text-decoration: none;
+  }
 
-
-
-/*--------------------  Section -------------------- */
 
 /*--------------------  Section -------------------- */
 
