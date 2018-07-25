@@ -84,7 +84,7 @@ h4 {
     width: 150px;
     height: 150px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 180px;
 }
 #header h2 {
     /*color: aqua;*/
@@ -106,7 +106,7 @@ h4 {
 }
 
 .jumbotron {
-    background-color: aqua;
+    background-color: #3CB371;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -114,8 +114,9 @@ h4 {
 
 .navbar {
     margin-bottom: 0;
+    padding-top: 50px;
     /*background-color: #f4511e;*/
-    background-color: aqua; 
+    background-color: #3CB371; 
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -123,16 +124,21 @@ h4 {
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
+    
 }
 .navbar li a, .navbar .navbar-brand {
     /*color: #fff !important;*/
-    color: black;
+    color: #fff;
     font-size: 13px;
+}
 
+#myNavbar ul li a {
+    color: white;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: black !important;
     background-color: #fff !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -142,27 +148,27 @@ h4 {
 /*-------------------- QUOTES Section -------------------- */
 
 .carousel-control.right, .carousel-control.left {
-    color: #1B6C7C;
+    color: #3CB371;
     /*background-image: none;*/
 }
 
 .carousel-indicators li {
-    border-color: #1B6C7C;
+    border-color: #3CB371;
 
 }
 
 .carousel-indicators li.active {
-    background-color: #1B6C7C;
+    background-color: #3CB371;
 }
 
 .item h4 {
     font-size: 19px;
     /*line-height: 1.375em;*/
-    height: 100px;
+    height: 80px;
     font-weight: 400;
     font-style: italic;
     margin: 70px 0;
-    color: #1B6C7C;
+    color: #3CB371;
 }
 .item span {
     font-style: normal;
@@ -170,12 +176,14 @@ h4 {
 /*-------------------- ABOUT Section -------------------- */
 
 .logo-small {
-    color: aqua;
+    color: #3CB371;
     font-size: 50px;
 }
 .logo {
-    color: aqua;
+    color: #3CB371;
     font-size: 300px;
+    padding-bottom: 100px;
+
 }
 
 .container-fluid {
@@ -185,6 +193,15 @@ h4 {
 .bg-grey {
     /*background-color: #f6f6f6;*/
     background-color:#E2E8EF;
+}
+
+.col-sm-8 p {
+    color: black;
+    font-size: 17px;
+}
+
+.row .col-sm-4 li {
+    font-size: 17px;
 }
 
 /*-------------------- SKILLS Section -------------------- */
@@ -241,6 +258,31 @@ h4 {
 }
 
 
+@media screen and (max-width: 450px) {
+    .col-sm-3 h3 {
+      font-size: 14px;
+    }
+  
+    .btn-sm {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+
+
+@media screen and (max-width: 400px) {
+    .item h4 {
+        font-size: 12px;
+        /*line-height: 1.375em;*/
+        height: 80px;
+        font-weight: 400;
+        font-style: italic;
+        margin: 70px 0;
+        color: #3CB371;
+    }
+  }
+
+
 
 /*-------------------- CERTIFICATE Section -------------------- */
 
@@ -252,13 +294,13 @@ h4 {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 .panel-footer .btn:hover {
-    border: 1px solid aqua;
+    border: 1px solid #3CB371;
     background-color: #fff !important;
     color: grey;
 }
 .panel-heading {
     color: #fff !important;
-    background-color: aqua !important;
+    background-color: #3CB371 !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -278,14 +320,14 @@ h4 {
 }
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: aqua;
+    background-color: #3CB371;
     color: black;
 }
 
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color:aqua;
+    color:#3CB371;
 }
 
 
@@ -296,8 +338,10 @@ footer .glyphicon {
 
 
 
-.row .col-sm-3 {
+.row .col-xm-3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #3CB371;
+    margin: 5px;
 }
 
 .btn {
