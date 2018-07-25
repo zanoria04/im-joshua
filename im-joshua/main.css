@@ -145,6 +145,8 @@ h4 {
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
+    /*background-color: #2F4F4F;*/
+    background-color:  #1B6C7C; 
 }
 
 
