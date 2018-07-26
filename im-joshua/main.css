@@ -54,6 +54,7 @@
     .col-12 {width: 100%;}
 }
 
+
 /*-------------------- HEADER Section -------------------- */
 
 body {
@@ -298,6 +299,13 @@ h4 {
       width: 200px;
       height: 100px;
     } */
+
+    #tools {
+        background: url('img_one.jpg') no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
 
 
 /*-------------------- CERTIFICATE Section -------------------- */
