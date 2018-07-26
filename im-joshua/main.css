@@ -216,6 +216,12 @@ h4 {
     font-size: 17px;
 }
 
+
+#about .container-fluid {
+    background: url('img_one.jpg') no-repeat;
+}
+
+
 /*-------------------- SKILLS Section -------------------- */
 
 
@@ -294,11 +300,15 @@ h4 {
     }
   }
 
+/*-------------------- TOOLS Section -------------------- */
+
+
   /*@media screen and (max-width: 450px) {
     .col-sm-4 .thumbnail img {
       width: 200px;
       height: 100px;
     } */
+
 
     #tools {
         background: url('img_one.jpg') no-repeat;
@@ -306,6 +316,12 @@ h4 {
         background-size: 100% 100%;
     }
 
+    @media only screen and (max-width: 768px) {
+        #tools {
+            background: url('img_one.jpg') no-repeat;
+            background-attachment: fixed;
+        }
+      }
 
 
 /*-------------------- CERTIFICATE Section -------------------- */
