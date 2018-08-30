@@ -24,30 +24,31 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   
-  <header class="w3-display-container w3-content w3-center" style="max-width:100%">
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myPage">JOSHUA ZANORIA</a> 
+<header class="w3-display-container w3-content w3-center" style="max-width:100%">
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+     <!--   <a class="navbar-brand" href="#myPage">JOSHUA ZANORIA</a> -->
+        <a id="popover" class="navbar-brand" rel="popover" data-content="" title="">JOSHUA ZANORIA</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skill">SKILL</a></li>
+          <li><a href="#tools">TOOLS</a></li>
+          <li><a href="#certificate">CERTIFICATE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#skill">SKILL</a></li>
-        <li><a href="#tools">TOOLS</a></li>
-        <li><a href="#certificate">CERTIFICATE</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
- 
  <div class="jumbotron text-center">
   <div class="section" id="header">
     <img alt="" class="img-circle" src="profile.jpg">
@@ -116,15 +117,22 @@
 <div id="about" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-8">
-      <div class="col-sm-5">
-          <br>
-    	<span class="glyphicon fa fa-street-view logo"></span>
+      <div class="col-sm-6">
+
+    <!--	<span class="glyphicon fa fa-street-view logo"></span>-->
+    <img src="profile3.jpg" style="width: 100%; height: 100%;">
       </div>
-      <br>
-      <h2>ABOUT</h2><br>
-      <p>At this point in my career, I am absolutely passionate learning about front-end & back-end development, and plan to work towards greater expertise leveraging its capabilities. I have become more attuned to the need for adherence to established RWD (Responsive Web Design), and want to better familiarize myself with them, in an effort to better exploit their capabilities given an opportunity.</p><br>
-      <p>Designing for the best experience for all users. Web pages that can be viewed using many different devices: desktops, tablets, and phones. I do always believe, your web page should look good, and be easy to use, regardless of the device.</p>
+
+        <div class="col-sm-6">
+          <h2>About Me</h2>
+     <br>     
+          <p>Hi I'm Joshua Zanoria. At this point in my career, I am absolutely passionate learning about front-end & back-end development, and plan to work towards greater expertise leveraging its capabilities. I have become more attuned to the need for adherence to established RWD (Responsive Web Design), and want to better familiarize myself with them, in an effort to better exploit their capabilities given an opportunity.</p>
+      <br>   
+          <p>Designing for the best experience for all users. Web pages that can be viewed using many different devices: desktops, tablets, and phones. I do always believe, your web page should look good, and be easy to use, regardless of the device.</p>
+        </div> 
+      
     </div>
+    
   </div>
 </div>
 
@@ -216,6 +224,7 @@
         </svg>
     </div>
   </div>
+
 </div>
 
 
@@ -230,7 +239,7 @@
     
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="mysql_logo.png" alt="Paris" width="400" height="300">
+          <img src="mysql_logo.png" alt="mysql" width="400" height="300">
           <h4><strong>MySQL</strong></h4>
           <p>MySQL is an open-source relational database management system. Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured Query Language.</p>
         </div>
@@ -238,7 +247,7 @@
   
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="PhpMyAdmin_logo.svg" alt="New York" width="400" height="300">
+          <img src="http://www.mywebsitefix.com/wp-content/uploads/2017/03/Phpmyadmin_300.png" alt="PhpMyAdmin" width="400" height="300">
           <h4><strong>phpMyAdmin</strong></h4>
           <p>phpMyAdmin is a free and open source administration tool for MySQL and MariaDB. As a portable web application written primarily in PHP, it has become one of the most popular MySQL administration tools, especially for web hosting services. </p>
         </div>
@@ -246,7 +255,7 @@
   
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="xampp_logo.png" alt="San Francisco" width="400" height="300">
+          <img src="xampp_logo.png" alt="xampp" width="400" height="300">
             <h4><strong>XAMPP</strong></h4>
             <p>XAMPP is a free and open source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.</p>
         </div>
@@ -260,7 +269,7 @@
 
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="vs_code.jpg" alt="Paris" width="400" height="300">
+        <img src="vs_code.jpg" alt="VS Code" width="400" height="300">
         <h4><strong>Visual Studio Code</strong></h4>
         <p>Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.</p>
       </div>
@@ -268,7 +277,7 @@
 
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="git_logo.png" alt="New York" width="400" height="300">
+        <img src="git_logo.png" alt="git" width="400" height="300">
         <h4><strong>Git</strong></h4>
         <p>Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people.</p>
       </div>
@@ -276,7 +285,7 @@
 
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="github_logo.jpg" alt="San Francisco" width="400" height="300">
+        <img src="github_logo.jpg" alt="github" width="400" height="300">
           <h4><strong>GitHub Inc.</strong></h4>
           <p>GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.</p>
       </div>
@@ -299,7 +308,7 @@
               <h3>HTML</h3>
             </div>
         <div class="thumbnail">
-          <img src="HTML-Certificate.jpg" alt="Paris" width="400" height="300">
+          <img src="HTML-Certificate.jpg" alt="HTML" width="400" height="300">
           <br>
           <br>
           <a href="https://www.sololearn.com/Certificate/1014-9651967/pdf/" target="_blank">
@@ -315,7 +324,7 @@
               <h3>CSS</h3>
             </div>
         <div class="thumbnail">
-          <img src="CSS-Certificate.jpg" alt="New York" width="400" height="300">
+          <img src="CSS-Certificate.jpg" alt="CSS" width="400" height="300">
           <br>
           <br>
           <a href="https://www.sololearn.com/Certificate/1023-9651967/pdf/" target="_blank">
@@ -331,7 +340,7 @@
               <h3>JavaScript</h3>
             </div>
         <div class="thumbnail">
-          <img src="JavaScript-Certificate.jpg" alt="San Francisco" width="400" height="300">
+          <img src="JavaScript-Certificate.jpg" alt="JavaScript" width="400" height="300">
           <br>
           <br>
           <a href="https://www.sololearn.com/Certificate/1024-9651967/pdf/" target="_blank">
@@ -347,7 +356,7 @@
               <h3>PHP</h3>
             </div>
         <div class="thumbnail">
-          <img src="PHP-Certificate.jpg" alt="San Francisco" width="400" height="300">
+          <img src="PHP-Certificate.jpg" alt="PHP" width="400" height="300">
           <br>
           <br>
           <a href="https://www.sololearn.com/Certificate/1059-9651967/pdf/" target="_blank">
@@ -363,7 +372,7 @@
             <h3>SQL</h3>
           </div>
       <div class="thumbnail">
-        <img src="SQL-Certificate.jpg" alt="San Francisco" width="400" height="300">
+        <img src="SQL-Certificate.jpg" alt="SQL" width="400" height="300">
         <br>
         <br>
         <a href="https://www.sololearn.com/Certificate/1060-9651967/pdf/" target="_blank">
@@ -425,6 +434,13 @@
 
   </div>
 </div>
+
+<script>
+
+  var info = "<strong>Date of Birth:</strong> November 04, 1994<br><strong>Status:</strong> Single<br><strong>Citizenship:</strong> Filipino<br><strong>Gender:</strong> Male<br><strong>Age:</strong> 23 y/o<br><strong>Height:</strong> 5’10";
+
+$('#popover').popover({placement: 'bottom', content: info, html: true});
+</script>
 
 </body>
 </html> 

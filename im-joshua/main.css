@@ -1,5 +1,4 @@
 
-
 /*-------------------- FOR A RESPONSIVE WEB DESIGN -------------------- */
 
 * {
@@ -220,6 +219,18 @@ h4 {
 #about .container-fluid {
     background: url('img_one.jpg') no-repeat;
 }
+
+
+table, td, th {    
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
 
 
 /*-------------------- SKILLS Section -------------------- */
