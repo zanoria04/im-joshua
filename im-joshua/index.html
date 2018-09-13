@@ -52,7 +52,7 @@
  <div class="jumbotron text-center">
   <div class="section" id="header">
     <img alt="" class="img-circle" src="profile.jpg">
-    <h2>Joshua Zanoria</h2>
+    <h2 style="color: #245137;">Joshua Zanoria</h2>
     <h6>WEB DEVELOPER</h6>
   </div>
  </div>
@@ -182,6 +182,7 @@
 
 <div id="skill" class="container-fluid text-center bg-grey">
     <br>
+    <br>
   <h2>SKILL</h2>
   <h4>Programming Languages / Frameworks</h4>
   <br>
@@ -231,6 +232,7 @@
 <!--------------------------  TOOLS Section ---------------------------->
 
 <div id="tools" class="container-fluid text-center bg-grey">
+  <br>
   <br>
   <h2>TOOLS</h2>
   <h4>Database management tools / Programming tools </h4>
@@ -299,6 +301,7 @@
 
 <div id="certificate" class="container-fluid text-center bg-grey">
     <br>
+    <br>
     <h2>CERTIFICATE</h2>
     <h4>Click the certificate button</h4>
     <div class="row text-center slideanim">
@@ -308,7 +311,7 @@
               <h3>HTML</h3>
             </div>
         <div class="thumbnail">
-          <img src="HTML-Certificate.jpg" alt="HTML" width="400" height="300">
+         <img src="HTML-Certificate.jpg" alt="HTML" width="400" height="300">
           <br>
           <br>
           <a href="https://www.sololearn.com/Certificate/1014-9651967/pdf/" target="_blank">
@@ -340,7 +343,7 @@
               <h3>JavaScript</h3>
             </div>
         <div class="thumbnail">
-          <img src="JavaScript-Certificate.jpg" alt="JavaScript" width="400" height="300">
+         <img src="JavaScript-Certificate.jpg" alt="JavaScript" width="400" height="300">
           <br>
           <br>
           <a href="https://www.sololearn.com/Certificate/1024-9651967/pdf/" target="_blank">
@@ -356,7 +359,7 @@
               <h3>PHP</h3>
             </div>
         <div class="thumbnail">
-          <img src="PHP-Certificate.jpg" alt="PHP" width="400" height="300">
+         <img src="PHP-Certificate.jpg" alt="PHP" width="400" height="300">
           <br>
           <br>
           <a href="https://www.sololearn.com/Certificate/1059-9651967/pdf/" target="_blank">
@@ -372,7 +375,7 @@
             <h3>SQL</h3>
           </div>
       <div class="thumbnail">
-        <img src="SQL-Certificate.jpg" alt="SQL" width="400" height="300">
+       <img src="SQL-Certificate.jpg" alt="SQL" width="400" height="300">
         <br>
         <br>
         <a href="https://www.sololearn.com/Certificate/1060-9651967/pdf/" target="_blank">
@@ -383,10 +386,46 @@
       </div>
     </div>
 
-    </div>
-<br>
-<br>
-  </div>
+ </div>
+  <br>
+  <br>
+</div>
+
+  
+<!-------------------------- Average Section ---------------------------->
+
+<!--
+<div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['HTML', 6.5],
+  ['CSS', 6.5],
+  ['JavaScript', 5],
+  ['PHP', 4],
+  ['SQL', 4]
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'My Average Skill', 'width':550, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
+-->
+
 
 <!-------------------------- CONTACT Section ---------------------------->
 
@@ -433,6 +472,9 @@
   </form>  
 
   </div>
+
+  <a href="#myPage"><i class="fa fa-arrow-circle-up" style="font-size:48px;color:red"></i></a>
+
 </div>
 
 <script>
